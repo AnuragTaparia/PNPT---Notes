@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "117ca0f0e1b23b2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PEH/Attacking Active Directory - Initial Attack Vectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4fd2be129082690f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/Attacking Active Directory - Initial Attack Vectors.md",
+                "file": "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PEH/Attacking Active Directory - Initial Attack Vectors.md",
+                "file": "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PEH/Attacking Active Directory - Initial Attack Vectors.md",
+                "file": "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PEH/Attacking Active Directory - Initial Attack Vectors.md"
+                "file": "PEH/Attacking Active Directory - Post-Compromise Attacks.md"
               }
             }
           }
@@ -158,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42e1b6cedf171dd8",
+  "active": "4fd2be129082690f",
   "lastOpenFiles": [
-    "PEH/Active Directory Overview.md",
     "PEH/Attacking Active Directory - Initial Attack Vectors.md",
+    "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
+    "PEH/Active Directory Overview.md",
     "images/Objects.png",
     "images/Types of Trusts.png",
     "images/AD DS Schema example.png",

