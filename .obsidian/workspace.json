@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/Post Exploitation.md",
+                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "getuser",
+                "query": "ldap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PEH/Post Exploitation.md",
+                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PEH/Post Exploitation.md",
+                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PEH/Post Exploitation.md"
+                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md"
               }
             }
           }
@@ -150,11 +150,12 @@
   "active": "ffaa33e0ec2ca170",
   "lastOpenFiles": [
     "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
+    "PEH/We've Compromised the Domain - Now What.md",
+    "PEH/Find & Exploit Common Web Vulnerabilities.md",
     "PEH/Post Exploitation.md",
     "PEH/Additional Active Directory Attacks.md",
-    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
     "PEH/Attacking Active Directory - Initial Attack Vectors.md",
-    "PEH/We've Compromised the Domain - Now What.md",
     "PEH/Active Directory Overview.md",
     "images/Kerberoasting.png",
     "images/Objects.png",
