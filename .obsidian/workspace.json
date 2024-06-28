@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4383bd71aa4e0afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ldap",
+                "query": "gpp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
+                "file": "OSINT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
+                "file": "OSINT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md"
+                "file": "OSINT.md"
               }
             }
           }
@@ -147,15 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffaa33e0ec2ca170",
+  "active": "4383bd71aa4e0afc",
   "lastOpenFiles": [
+    "PEH/Find & Exploit Common Web Vulnerabilities.md",
+    "OSINT.md",
     "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "Open-Source Intelligence (OSINT)",
+    "PEH/Legal Documents and Report Writing.md",
+    "TCMS-Demo-Corp-Security-Assessment-Findings-Report.pdf",
+    "images/Legal Documents.png",
+    "PEH/Attacking Active Directory - Initial Attack Vectors.md",
     "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
     "PEH/We've Compromised the Domain - Now What.md",
-    "PEH/Find & Exploit Common Web Vulnerabilities.md",
     "PEH/Post Exploitation.md",
     "PEH/Additional Active Directory Attacks.md",
-    "PEH/Attacking Active Directory - Initial Attack Vectors.md",
     "PEH/Active Directory Overview.md",
     "images/Kerberoasting.png",
     "images/Objects.png",

@@ -66,7 +66,7 @@
 - Consider Administrative users to the Protected Users group or marking them as Account is sensitive and cannot be delegated, which will prevent any impersonation of that user via delegation.
 
 ## Passback Attack
-- [Reference](https://www.mindpointgroup.com/blog/how-to-hack-through-a-pass-back-attack
+- [Reference](https://www.mindpointgroup.com/blog/how-to-hack-through-a-pass-back-attack)
 
 ## Initial Internal Attack Strategy
 - Begin day with mitm6 or Responder
