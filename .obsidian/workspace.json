@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "636ae23f678f55ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows Privilege Escalation for Beginners.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gpp",
+                "query": "power",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSINT.md",
+                "file": "Windows Privilege Escalation for Beginners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSINT.md",
+                "file": "Windows Privilege Escalation for Beginners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSINT.md"
+                "file": "Windows Privilege Escalation for Beginners.md"
               }
             }
           }
@@ -159,21 +172,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4383bd71aa4e0afc",
+  "active": "ffaa33e0ec2ca170",
   "lastOpenFiles": [
-    "PEH/Find & Exploit Common Web Vulnerabilities.md",
-    "OSINT.md",
     "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "Windows Privilege Escalation for Beginners.md",
+    "PEH/We've Compromised the Domain - Now What.md",
+    "PEH/Attacking Active Directory - Initial Attack Vectors.md",
+    "PEH/Post Exploitation.md",
+    "images/windows kernel.png",
+    "images/kernel.png",
+    "OSINT.md",
+    "PEH/Find & Exploit Common Web Vulnerabilities.md",
+    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
+    "PEH/Active Directory Overview.md",
     "Open-Source Intelligence (OSINT)",
     "PEH/Legal Documents and Report Writing.md",
     "TCMS-Demo-Corp-Security-Assessment-Findings-Report.pdf",
     "images/Legal Documents.png",
-    "PEH/Attacking Active Directory - Initial Attack Vectors.md",
-    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
-    "PEH/We've Compromised the Domain - Now What.md",
-    "PEH/Post Exploitation.md",
     "PEH/Additional Active Directory Attacks.md",
-    "PEH/Active Directory Overview.md",
     "images/Kerberoasting.png",
     "images/Objects.png",
     "images/Types of Trusts.png",
