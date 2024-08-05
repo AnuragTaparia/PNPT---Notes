@@ -5,6 +5,8 @@
 - [Sushant 747's Guide (Country dependant - may need VPN)](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
 - [Course Resources](https://github.com/TCM-Course-Resources/Windows-Privilege-Escalation-Resources)
 - [Alternate Data Streams](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/)
+- [hacktricks](https://book.hacktricks.xyz/windows-hardening/basic-powershell-for-pentesters)
+- 
 ## Initial Enumeration
 - System Enumeration
 	- `systeminfo` 
@@ -73,13 +75,13 @@
 		- The command connects to the remote SSH server at `10.10.14.16` with the username `root` and password `toor`. It sets up remote port forwarding so that any connections made to port `445` on the remote server are forwarded to port `445` on your local machine (local machine is htb box in our case).
 
 #### Windows Subsystem for Linux (WSL)
-- Box SecNotes
+- Box [SecNotes](https://anuragtaparia.gitbook.io/write-ups/windows/htb-or-secnotes)
 - check for bash.exe and wsl.exe
 - `where /R c:\windows bash.exe `  OR `where /R c:\windows wsl.exe`
 - and run bash.exe or `wsl.exe cmd`
 
 #### Impersonation and Potato Attacks
-- Box Jeeves
+- Box [Jeeves](https://anuragtaparia.gitbook.io/write-ups/windows/htb-or-jeeves)
 - Refer [this](https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/#eop-impersonation-privileges)
 - look for `SeAssignPrimaryToken` or `SeImpersonate`
 - [Rotten Potato](https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/)
@@ -89,7 +91,7 @@
 	- [What happens when I type getsystem?](https://blog.cobaltstrike.com/2014/04/02/what-happens-when-i-type-getsystem/)
 
 #### RunAs
-- Box Access
+- Box [Access](https://anuragtaparia.gitbook.io/write-ups/windows/htb-or-access)
 - run `cmdkey /list` -- if there is any stored cred, we can use runas.exe
 	- `C:\Windows\System32\runas.exe /user:ACCESS\Administrator /savecred "C:\Windows\System32\cmd.exe /c TYPE C:\Users\Administrator\Desktop\root.txt > C:\Users\security\root.txt"`
 	- or for shell
@@ -105,3 +107,18 @@
 #### Executable Files
 - Using THM [Windows PrivEsc Arena](https://tryhackme.com/r/room/windowsprivescarena)
 - Service Escalation - Executable Files
+
+#### Startup Applications
+- Using THM [Windows PrivEsc Arena](https://tryhackme.com/r/room/windowsprivescarena)
+- Privilege Escalation - Startup Applications
+- `icacls.exe "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"` 
+- if “BUILTIN\Users” group has full access ‘(F)’ to the directory that means we can put our msf exe and get shell
+
+#### DLL Hijacking
+- Using THM [Windows PrivEsc Arena](https://tryhackme.com/r/room/windowsprivescarena)
+- Service Escalation - DLL Hijacking
+
+#### Service Permissions (Paths)
+- Using THM [Windows PrivEsc Arena](https://tryhackme.com/r/room/windowsprivescarena)
+- Service Escalation - binPath
+- Service Escalation - Unquoted Service Paths

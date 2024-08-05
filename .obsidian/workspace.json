@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Privilege Escalation for Beginners.md",
+                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47d1a0dd773e9ead",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Privilege Escalation for Beginners.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "power",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Privilege Escalation for Beginners.md",
+                "file": "Linux Privilege Escalation for Beginners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Privilege Escalation for Beginners.md",
+                "file": "Linux Privilege Escalation for Beginners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Privilege Escalation for Beginners.md"
+                "file": "Linux Privilege Escalation for Beginners.md"
               }
             }
           }
@@ -172,18 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffaa33e0ec2ca170",
+  "active": "47d1a0dd773e9ead",
   "lastOpenFiles": [
-    "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "PEH/Find & Exploit Common Web Vulnerabilities.md",
+    "Linux Privilege Escalation for Beginners.md",
+    "OSINT.md",
     "Windows Privilege Escalation for Beginners.md",
-    "PEH/We've Compromised the Domain - Now What.md",
+    "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
     "PEH/Attacking Active Directory - Initial Attack Vectors.md",
+    "PEH/We've Compromised the Domain - Now What.md",
     "PEH/Post Exploitation.md",
     "images/windows kernel.png",
     "images/kernel.png",
-    "OSINT.md",
-    "PEH/Find & Exploit Common Web Vulnerabilities.md",
-    "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
     "PEH/Active Directory Overview.md",
     "Open-Source Intelligence (OSINT)",
     "PEH/Legal Documents and Report Writing.md",
