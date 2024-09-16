@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "700808632648a715",
+            "id": "a75c83f3d5ffed09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4383bd71aa4e0afc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "636ae23f678f55ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PEH/Find & Exploit Common Web Vulnerabilities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47d1a0dd773e9ead",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Privilege Escalation for Beginners.md",
+                "file": "External Pentest Playbook.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Privilege Escalation for Beginners.md",
+                "file": "External Pentest Playbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Privilege Escalation for Beginners.md",
+                "file": "External Pentest Playbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Privilege Escalation for Beginners.md"
+                "file": "External Pentest Playbook.md"
               }
             }
           }
@@ -183,23 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47d1a0dd773e9ead",
+  "active": "a75c83f3d5ffed09",
   "lastOpenFiles": [
-    "PEH/Find & Exploit Common Web Vulnerabilities.md",
-    "Linux Privilege Escalation for Beginners.md",
-    "OSINT.md",
     "Windows Privilege Escalation for Beginners.md",
     "PEH/Attacking Active Directory - Post-Compromise Attacks.md",
+    "Linux Privilege Escalation for Beginners.md",
+    "PEH/Find & Exploit Common Web Vulnerabilities.md",
+    "OSINT.md",
+    "External Pentest Playbook.md",
+    "TCMS-Demo-Corp-Security-Assessment-Findings-Report.pdf",
+    "images/trevorSpray.png",
+    "PEH/Active Directory Overview.md",
+    "TCMS - External Pentest Checklist.xlsx",
     "PEH/Attacking Active Directory - Post-Compromise Enumeration.md",
     "PEH/Attacking Active Directory - Initial Attack Vectors.md",
     "PEH/We've Compromised the Domain - Now What.md",
     "PEH/Post Exploitation.md",
     "images/windows kernel.png",
     "images/kernel.png",
-    "PEH/Active Directory Overview.md",
     "Open-Source Intelligence (OSINT)",
     "PEH/Legal Documents and Report Writing.md",
-    "TCMS-Demo-Corp-Security-Assessment-Findings-Report.pdf",
     "images/Legal Documents.png",
     "PEH/Additional Active Directory Attacks.md",
     "images/Kerberoasting.png",

@@ -6,7 +6,7 @@
 - [Course Resources](https://github.com/TCM-Course-Resources/Windows-Privilege-Escalation-Resources)
 - [Alternate Data Streams](https://blog.malwarebytes.com/101/2015/07/introduction-to-alternate-data-streams/)
 - [hacktricks](https://book.hacktricks.xyz/windows-hardening/basic-powershell-for-pentesters)
-- 
+- [SMB Enum Checklist](https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html)
 ## Initial Enumeration
 - System Enumeration
 	- `systeminfo` 

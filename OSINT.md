@@ -1,4 +1,7 @@
-https://github.com/TCM-Course-Resources/Open-Source-Intellingence-Resources
+- https://github.com/TCM-Course-Resources/Open-Source-Intellingence-Resources
+- tool for hunting breached cred - [https://github.com/hmaverickadams/breach-parse](https://github.com/hmaverickadams/breach-parse)
+- https://github.com/Astrosp/Awesome-OSINT-For-Everything
+- 
 ## Sock Puppets
 - Creating an Effective Sock Puppet for OSINT Investigations – Introduction - [https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets)
 - Reddit - My process for setting up anonymous sockpuppet accounts - [https://www.reddit.com/r/OSINT/comments/dp70jr/my_process_for_setting_up_anonymous_sockpuppet/](https://www.reddit.com/r/OSINT/comments/dp70jr/my_process_for_setting_up_anonymous_sockpuppet/)
@@ -58,8 +61,10 @@ https://github.com/TCM-Course-Resources/Open-Source-Intellingence-Resources
 - BuiltWith - [https://builtwith.com/](https://builtwith.com/)
 - Domain Dossier - [https://centralops.net/co/](https://centralops.net/co/)
 - DNSlytics - [https://dnslytics.com/reverse-ip](https://dnslytics.com/reverse-ip)
+- Censys - [https://search.censys.io/](https://search.censys.io/) **
 - SpyOnWeb - [https://spyonweb.com/](https://spyonweb.com/)
 - Virus Total - [https://www.virustotal.com/](https://www.virustotal.com/)
+- securityTrails - [https://securitytrails.com/](https://securitytrails.com/) **
 - Visual Ping - [https://visualping.io/](https://visualping.io/)
 - Back Link Watch - [http://backlinkwatch.com/index.php](http://backlinkwatch.com/index.php)
 - View DNS - [https://viewdns.info/](https://viewdns.info/)
@@ -69,7 +74,7 @@ https://github.com/TCM-Course-Resources/Open-Source-Intellingence-Resources
 - crt.sh - [https://crt.sh/](https://crt.sh/)
 - Shodan - [https://shodan.io](https://shodan.io/)
 - Wayback Machine - [https://web.archive.org/](https://web.archive.org/)
-
+	
 ##   Hunting Business Information
 - Open Corporates - [https://opencorporates.com/](https://opencorporates.com/)
 - AI HIT - [https://www.aihitdata.com/](https://www.aihitdata.com/)
